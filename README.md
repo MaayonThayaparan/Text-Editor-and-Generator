@@ -36,9 +36,31 @@
 3. File -> Import -> Select "File System" -> Next -> Browse and set 
 	  root directory to folder contents of zip were extracted to -> Finish
 
-## Executing the Program
-- Open the projet
-
 ### Troubleshooting:
 - Do the following if you get the following error: “java.lang.UnsupportedClassVersionError:”
      - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment ‘JavaSE 1.6’... → then click ‘Apply and Close’
+ 
+## Executing the Program
+- Open project in Eclipse and run the 'src => application => MainApp.java' file.
+     - Load Text
+          - Use this button to load .txt file into the Text Editor
+     - Flesh Index
+          - Clicking this button will calculate and display the Flesh Index in the bottom left.
+          - This indicates the readability of the text.
+     - Edit Distance
+          - Clicking this button will prompt user to enter 2 words.
+          - After entering both words and clicking 'Ok', user will be displayed a window which shows the number of steps required to go from word 1 to word 2 and display the route taken.
+     - Generate Markov Text
+          - Clicking this button will open the 'Markov Text Generator' window.
+          - Input a numeric value in the 'Number of words' field and click 'Generate Text'
+          - The program will take the text inputted in the Text Editor and generate Markov text for the number of words specified.
+     - Spelling Suggestions
+          - This will highlight words that are not included in the dictionary.
+          - If word is missing and needs to be added to dictionary, add word in the "data --> dict.txt' file. 
+     - AutoComplete
+          - Selecting this checkbox will enable auto-complete which will display as a dropdown with potential words for any new word being typed.
+          - Use up and down keys to select a word in drop down and click <ENTER> to select word or use mouse cursor and click.
+     - Clear
+          - Use this button to clear text in the Text Editor area. 
+     
+
