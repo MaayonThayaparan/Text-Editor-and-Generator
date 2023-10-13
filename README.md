@@ -1,4 +1,4 @@
-# Earthquake-Interactive-Map
+# Text-Editor-and-Generator
 
 ## Description: 
 - This program has a text editor GUI which has the following features:
@@ -6,7 +6,7 @@
      - Auto-complete
      - Flesch Readability Score
           - Indicates how difficult a passage in English is to read (more info: https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests)
-          - 
+          - Equation = 206.835 - 1.015(total words/total sentences) - 84.6(total syllables/total words)
      - Markov text generation
 
 ## Getting Started 
@@ -35,6 +35,9 @@
 2. Create a new Java Project in your workspace
 3. File -> Import -> Select "File System" -> Next -> Browse and set 
 	  root directory to folder contents of zip were extracted to -> Finish
+
+## Executing the Program
+- Open the projet
 
 ### Troubleshooting:
 - Do the following if you get the following error: “java.lang.UnsupportedClassVersionError:”
