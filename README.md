@@ -31,7 +31,7 @@
      3. Follow the on-screen instructions starting at step 2 or 3
 
 ### Installation:
-1. Download project from GitHub\
+1. Download project from GitHub
 2. Create a new Java Project in your workspace
 3. File -> Import -> Select "File System" -> Next -> Browse and set 
 	  root directory to folder contents of zip were extracted to -> Finish
