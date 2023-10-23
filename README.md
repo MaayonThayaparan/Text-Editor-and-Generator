@@ -9,6 +9,8 @@
           - Equation = 206.835 - 1.015(total words/total sentences) - 84.6(total syllables/total words)
      - Markov text generation
 
+![image](https://github.com/MaayonThayaparan/Text-Editor-and-Generator/assets/43158629/7150dad4-6c2e-4a6e-86f0-a4d21191ccc7)
+
 ## Getting Started 
 
 ### Dependencies
