@@ -9,14 +9,14 @@
           - Equation = 206.835 - 1.015(total words/total sentences) - 84.6(total syllables/total words)
      - Markov text generation
 
-![image](https://github.com/MaayonThayaparan/Text-Editor-and-Generator/assets/43158629/7150dad4-6c2e-4a6e-86f0-a4d21191ccc7)
+![image](https://github.com/MaayonThayaparan/Text-Editor-and-Generator/assets/43158629/887f3303-c68b-479f-a3cd-31abc010570a)
 
 ## Getting Started 
 
 ### Dependencies
 - Tested on Windows 10
 - Requires Java 1.8 JDK (Java SE 8)
-- Requires Eclipse (specifically for next segment)
+- Requires Eclipse 
 - Requires e(fx)clipse
 
 ### Installation:
@@ -28,27 +28,26 @@
      - Note down where you save the folder. 
 2. Download Eclipse
      - Download at: https://www.eclipse.org/downloads/
-4. Open Eclipse
+3. Open Eclipse
      - In Eclipse select ‘Window’ tab → Select ‘Preferences’ → Expand ‘Java’ → Select ‘Installed JREs’ → Click ‘Search’
      - Navigate to where  you installed the JDK 1.8 directory. Make sure you select the newly installed JDK directory and not the newly installed JRE directory.
      - After a moment, Eclipse should list a second JRE in the ‘Java → Installed JREs’ window. Select the JRE in the newly installed JDK folder and click ‘Apply and Close’
-5. Requires e(fx)clipse
+4. Requires e(fx)clipse
      - Go to www.eclipse.org/efxclipse/install.html
      - Under 'For the Ambitious' click 'View details'
      - Follow the on-screen instructions starting at step 2 or 3
-8. In the 'Package Explorer' click 'Import Projects'
-9. Under 'Git' select 'Projects from Git (with smart import)
-10. Create a new Java Project in your workspace
-11. Select 'Clone URl'
-12. Input URL: https://github.com/MaayonThayaparan/Text-Editor-and-Generator.git
-13. Click 'Next' then 'Next' and then 'Finish'
-14. Select the root project folder in the 'Package Explorer' then click 'Project => Properties => Java Compiler'
-15. Select 'Enable project specific settings'
-16. Change the 'Compiler compliance level' to 1.8 then click 'Apply and Close'. Click 'Yes' when prompted. 
+5. In the 'Package Explorer' click 'Import Projects'
+6. Under 'Git' select 'Projects from Git (with smart import)
+7. Select 'Clone URl'
+8. Input URL: https://github.com/MaayonThayaparan/Text-Editor-and-Generator.git
+9. Click 'Next' then 'Next' and then 'Finish'
+10. Select the root project folder in the 'Package Explorer' then click 'Project => Properties => Java Compiler'
+11. Select 'Enable project specific settings'
+12. Change the 'Compiler compliance level' to 1.8 then click 'Apply and Close'. Click 'Yes' when prompted. 
 
 ### Troubleshooting:
 - Do the following if you get the following error: “java.lang.UnsupportedClassVersionError:”
-     - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment ‘JavaSE 1.6’... → then click ‘Apply and Close’
+     - Ensure root directory is selected in ‘Package Explorer’ → Click ‘Project’ in tool bar → ‘Properties’ → ‘Java Compiler’ → select ‘Use compliance from execution environment ...' → then click ‘Apply and Close’
  
 ## Executing the Program
 - Open project in Eclipse and run the 'src => application => MainApp.java' file.
